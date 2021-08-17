@@ -1,5 +1,8 @@
 ![code test](./screenshot.png)
 
+### Deployed to Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dbad65ac-a5e2-45cd-a72c-04cda2194899/deploy-status)](https://app.netlify.com/sites/hungry-varahamihira-a0ab2a/deploys)
+
 ### Added NPM Libraries
 - history npm package for the beta React Router 6's peer dependencies
 - uuid npm package for GUID (globally unique id) generation
