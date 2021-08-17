@@ -5,6 +5,8 @@ export const store = (key: string, value: any) => {
   window.localStorage.setItem(key, JSON.stringify(value));
 };
 
+/* without type "any" as a fallback value in the generics, 
+* it returns unknown type. */
 export const get = <T = any>(key: string) => {
   /* get data from localStorage */
   const value: string | null = window.localStorage.getItem(key);
