@@ -1,34 +1,44 @@
 ![code test](./screenshot.png)
 
 ### Deployed to Netlify
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dbad65ac-a5e2-45cd-a72c-04cda2194899/deploy-status)](https://app.netlify.com/sites/hungry-varahamihira-a0ab2a/deploys)
 
+- see live web app here: https://hungry-varahamihira-a0ab2a.netlify.app/
+
 ### Added NPM Libraries
+
 - history npm package for the beta React Router 6's peer dependencies
 - uuid npm package for GUID (globally unique id) generation
 - react-feather npm package for icons
 
 ### React Router Extra Info
+
 - Stable version will be released soon
 
 #### Using React Router 6 (Beta 1)
+
 - https://www.npmjs.com/package/react-router/v/6.0.0-beta.1
 - Released August 14, 2021
 
 #### React Router 6 Beta 1 Release Notes
+
 - https://github.com/remix-run/react-router/releases
 - The long awaited Beta 1, a year after the released of Beta 0
 - Delayed because React Router's authors were too busy developing the Remix framework
 - https://remix.run/ a React framework
 
 ### Tips
+
 - a state management library is a better choice for an app that has multiple contexts
 
 ### Info
+
 - you will notice a flicker if you visit a page for 1st time because of lazy loading or code splitting
 - the flicker shows the on-demand browser's download as you visit every page
 
 ## Development Flow
+
 - Create the 3 pages first
 - Create a router with lazy loading
 - Create the MainLayout template that will serve as the template of the pages
